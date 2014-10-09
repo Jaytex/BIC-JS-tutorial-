@@ -1,0 +1,37 @@
+/* 
+	Random CSS file
+	Author 	: Jay Bamimore
+	Date 	: 09 - 10 - 2014
+*/
+
+body {
+	background: gainsboro;
+}
+
+body .thin{
+	background: rgb(37, 37, 37);
+}
+
+body .wide{
+	background: grey;
+}
+
+body .wider{
+	background: gainsboro;
+}
+
+#footer {
+  width: 100%;
+  height:90px;
+  background: rgb(37, 37, 37);
+  border-top: dashed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;  
+  z-index: 10;
+}
+
+#footer p{
+	color: white;
+}
