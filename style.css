@@ -1,23 +1,67 @@
 /* 
-	Random CSS file
+	Main CSS file for styling
 	Author 	: Jay Bamimore
 	Date 	: 09 - 10 - 2014
 */
 
-body {
-	background: gainsboro;
-}
 
-body .thin{
+
+
+body.thin{
 	background: rgb(37, 37, 37);
 }
 
-body .wide{
+
+body.thin h1{
+	color: white;
+}
+
+body.thin a{
+	color: white;
+	font-family: 'Ubuntu';
+	font-weight: 300px;
+}
+
+body.wide{
 	background: grey;
 }
 
-body .wider{
+body.wide a{
+	color: grey;
+	font-family: 'Ubuntu';
+	font-weight: 300px;
+}
+
+body.wider{
 	background: gainsboro;
+
+}
+
+body.wider a{
+	color: gainsboro;
+	font-family: 'Ubuntu';
+	font-weight: 300px;
+}
+
+h1{
+	font-family: 'Ubuntu', 'Arial', 'Sans-Serif';
+}
+
+p{
+	font-family: 'Ubuntu', 'Arial', 'Sans-Serif';
+}
+
+.center{
+	max-width: 550px;  
+  	text-align: center;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#container{
+	width:100%;
+  	margin:0 auto;
 }
 
 #footer {
