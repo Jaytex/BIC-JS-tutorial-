@@ -1,3 +1,5 @@
+/*Kevin's Blackjack code */
+
 var cardValues = '23456789TJQKA'.split('');
 var cardSuit = 'SCHD'.split('');
 var deck = [];
