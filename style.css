@@ -6,6 +6,8 @@
 
 
 
+/* Different layout attributes */
+/***********************************************/
 
 body.thin{
 	background: rgb(37, 37, 37);
@@ -42,6 +44,9 @@ body.wider a{
 	font-family: 'Ubuntu';
 	font-weight: 300px;
 }
+
+/***********************************************/
+
 
 h1{
 	font-family: 'Ubuntu', 'Arial', 'Sans-Serif';
